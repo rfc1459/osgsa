@@ -2,7 +2,7 @@
 #
 # osgsa: OpenStack user management on LDAP + Kerberos
 #
-# Version 1.0.0
+# Version 1.0.2
 # July 9th, 2013
 # Copyright (C) 2013  Matteo Panella (morpheus@level28.org)
 #
@@ -157,7 +157,7 @@ def moduser():
     parser = argparse.ArgumentParser()
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument("-e", "--enable", action="store_true", help="enable user")
-    group.add_argument("-d", "--disable", action="store_true", help="enable user")
+    group.add_argument("-d", "--disable", action="store_true", help="disable user")
     parser.add_argument("username", help="name of the user that should be modified")
     args = parser.parse_args()
     args.username = args.username.strip()
