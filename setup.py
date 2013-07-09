@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name = "osgsa",
-      version = "1.0.0",
+      version = "1.0.1",
       description = "Management tools for OpenStack users on LDAP",
       long_description = open('README.txt').read(),
       author = "Matteo Panella",

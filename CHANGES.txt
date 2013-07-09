@@ -1,1 +1,2 @@
+v1.0.1, Jul 9th 2013 -- Bugfix release.
 v1.0.0, Jul 9th 2013 -- Initial release.

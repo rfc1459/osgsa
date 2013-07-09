@@ -128,7 +128,7 @@ def adduser():
         else:
             # Create user
             cn = str(uuid.uuid4()).replace('-', '')
-            dn = "cn=%s,%s" % (uid, users_dn)
+            dn = "cn=%s,%s" % (cn, users_dn)
             add_record = [
                     ("objectclass", ["inetorgperson"]),
                     ("cn", [cn]),
