@@ -16,7 +16,7 @@ well.
 Authors
 =======
 
-Matteo Panella <`morpheus@level28.org <mailto:morpheus@level28.org>`>
+Matteo Panella <`morpheus@level28.org <mailto:morpheus@level28.org>`_>
 
 
 License
